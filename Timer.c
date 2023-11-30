@@ -16,7 +16,7 @@ void Timer_SetupAll(void){
   //CMU_ClockSelectSet(cmuClock_HF, cmuSelect_LFXO); //
   ////
   ///
-  CMU_ClockSelectSet(cmuClock_CORE, cmuSelect_LFXO);
+  //CMU_ClockSelectSet(cmuClock_CORE, cmuSelect_LFXO);
   CMU_ClockSelectSet(cmuClock_LFA, cmuSelect_LFXO); //
 //  CMU->LFACLKSEL = CMU_LFACLKSEL_LFA_ULFRCO; //1kHz clock
   CMU_ClockEnable(cmuClock_LFA, true);
